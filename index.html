@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>UV schools</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" integrity="sha512-Oy+sz5W86PK0ZIkawrG0iv7XwWhYecM3exvUtMKNJMekGFJtVAhibhRPTpmyTj8+lJCkmWfnpxKgT2OopquBHA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style>
+		::selection{
+	color: white;
+	background: #102;
+}
+.navbar{
+	transition: .3s;
+}
+.navbar-toggler{
+	border: none;
+}
+.navbar-toggler:focus{
+	box-shadow: none;
+}
+textarea{
+	resize: vertical;
+}
+#about{
+	margin-top: .5px;
+}
+.bi-twitter{
+	color: 	#00acee;
+}
+.bi-instagram{
+	color: transparent;
+	background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+.bi-linkedin{
+	color: #0e76a8;
+}
+.bi-facebook{
+	color: 	#4267B2;
+}
+.bi-youtube{
+	color: #F00;
+}
+#social-container .bi:hover{
+	filter: brightness(1.5);
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+    border-color: rgba(0,0,0,.25) !important;
+}
+
+@media (max-width:576px){
+#contact, #aboutText{
+	width: 100% !important;
+	}
+}
+@media (min-width:768px){
+	#location{
+	margin: 0 30px;
+	}
+}
+
+	</style>
+</head>
+<body>
+	
+	
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#"> &lt;UV schools /&gt;</a>
+    
+    <!-- Hamburger -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav d-flex ms-auto">
+        <li class="nav-item px-2">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" href="#features">Features</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" href="#pricing">Pricing</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+	
+	
+	<!-- First Section -->
+	<section class="bg-dark text-white pt-5 mb-3" id="top">
+		<div class="d-lg-flex justify-content-between align-items-center container p-4 text-center">
+			<div>
+				<h1>Welcome to <span class="fw-bold">UV Schools</span></h1>
+				<h1 class="lead"> where we teach the latest in <span class="text-warning"> <br>Web Development</span></h1>
+			</div>
+			
+				<img src="assets/frontend.png" alt="image" class="img-fluid d-sm-block mx-auto"></img>
+			
+		</div>
+	</section>
+	
+	
+	<!-- Learn Fundamentals -->
+	<section class="container d-md-flex justify-content-between align-items-center py-4 py-sm-5 px-sm-2">
+		
+		<img src="assets/programmer.png" alt="languages" class="w-100 mx-auto pb-2">
+
+		<div class="mx-auto">
+			<h1 class="text-lg-center">Learn Fundamentals</h1>
+			<small>In this Bootcamp, you will learn about the introduction to web development and a few languages like HTML, CSS, JavaScript and some frameworks like Bootstrap and jQuery.</small>
+		</div>
+		
+	</section>
+	
+	
+		<!-- Learn React -->
+	<section class="container-fluid d-md-flex justify-content-between align-items-center bg-dark text-white my-3 py-3">
+		
+		<div class="p-3">
+			<h1 class="text-lg-center"> React.js</h1>
+			<small>You will have the opportunity to also learn <strong>React</strong> - the most popular JavaScript framework which can be used for building UI components.</small>
+		</div>
+		
+		<div class="mx-auto">
+			<img src="assets/react.png" alt="React Logo" class="w-100 px-sm-3">
+		</div>
+		
+		
+
+	</section>
+	
+	<!-- Ways to learn -->
+	<section class="container-fluid p-4 text-center" id="features">
+		<h1 class="pb-3">Methods Of Learning</h1>
+		<div class="row g-5">
+			
+  <div class="col-md-4">
+    <div class="card shadow-sm">
+      <div class="card-body">
+      	<h1><i class="bi bi-laptop"></i></h1>
+        <h5 class="card-title">Virtual</h5>
+        <p class="card-text">Start learning web development from the comfort of your home.</p>
+        <a href="#virtual" class="btn btn-primary">Select</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-md-4">
+    <div class="card shadow-sm bg-secondary text-white">
+      <div class="card-body">
+      	<h1><i class="bi bi-people"></i></h1>
+        <h5 class="card-title">Physical</h5>
+        <p class="card-text"><br> Join the live class now at our address.<br></p>
+        <a href="#" class="btn btn-warning">Select</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-md-4">
+    <div class="card shadow-sm">
+      <div class="card-body">
+      	<h1><i class="bi bi-person"></i></h1>
+        <h5 class="card-title">Hybrid</h5>
+        <p class="card-text">If you can't make it to class all the time, this method is for you.</p>
+        <a href="#hybrid" class="btn btn-primary">Select</a>
+      </div>
+    </div>
+  </div>
+  
+	</div>
+	</section>
+	
+		
+	<!-- About Us -->
+	<section class="p-4 bg-dark text-white container-fluid mt-5" id="about">
+		<div class="w-75 mx-auto" id="aboutText">
+			<h1 class="text-center">About Us</h1>
+			<p class="text-left">Our headquarters is located at Abule-Egba, Lagos, Nigeria. Our sole aim is to produce world-class web developers.</p>
+			<p> We have several branches all over Nigeria and the world at large which makes it accessible for students (home/abroad) to study in our school.</p>
+		</div>
+	</section>
+	
+
+	<!-- Pricing -->
+	<section class="mt-5" id="pricing">
+		<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <h1 class="display-4">Pricing</h1>
+      <p class="lead">Take a look at the pricing table and select whichever one that suits your needs.</p>
+    </div>
+
+    <div class="container">
+      <div class="row card-deck mb-3 text-center g-0">
+        <div class="card mb-4 box-shadow col-md-4">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Physical</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$45 <small class="text-muted">/ mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li><i class="bi bi-check text-success fs-3"></i>Attend live classes</li>
+              <li><i class="bi bi-check text-success fs-3"></i>Free food for all</li>
+              
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+          </div>
+        </div>
+        <div class="card mb-4 box-shadow col-md-4">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Hybrid</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">
+            $90
+            	<small class="text-muted">/ mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li><i class="bi bi-check text-success fs-3"></i> Web development PDFs</li>
+              <li><i class="bi bi-check text-success fs-3"></i>Free food whenever your available</li>
+              <li><i class="bi bi-check text-success fs-3"></i>Attend live classes</li>
+              
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Get started</button>
+          </div>
+        </div>
+        <div class="card mb-4 box-shadow col-md-4">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Virtual</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$150 <small class="text-muted">/ mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li><i class="bi bi-check text-success fs-3"></i>Free food whenever your available</li>
+              <li><i class="bi bi-check text-success fs-3"></i>Free Laptops</li>
+              <li><i class="bi bi-check text-success fs-3"></i>Free Subscription</li>
+              <li><i class="bi bi-check text-success fs-3"></i>Professional help when needed</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-primary">Get Started</button>
+          </div>
+        </div>
+      </div>
+
+	</section>
+	   
+
+	
+	<!-- Contact Us -->
+	<section class="border p-4 mt-4 w-50 mx-auto" id="contact">
+		<div class="container">
+			<h1 class="text-center p-2">Contact Us</h1>
+			<form>
+				
+				<div class="mb-3">
+    <label for="fName" class="form-label">Full Name</label>
+    <input type="text" class="form-control" id="fName" required>
+  </div>
+
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone😉</div>
+  </div>
+    
+    <div class="mb-3">
+    <label for="fName" class="form-label">Your Message</label>
+    <textarea class="form-control" id="fName" rows="10" required> </textarea>
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+		</div>
+	</section>
+	
+	
+	<footer class="pt-5 pb-3 px-3 bg-dark text-white">
+		<div class="g-4 justify-content-between row">
+			<div class="px-3 col-sm-6 mb-3">
+				<h1 class="text-center">Free Newsletter Subscription</h1>
+				<p>Kindly subscribe to our mailing list to receive amazing content about web development from us.</p>
+				<form>
+					<div class="input-group">
+						<i class="bi bi-envelope-fill bg-light text-dark p-2"></i>
+						<input type="email" placeholder="me@email.com" class="form-control" required>
+						<button type="submit" class="btn btn-warning">Subscribe</button>
+					</div>
+				</form>
+			</div>
+			
+ 			<div class="px-3 col-sm-6">
+ 				<h1 class="text-center">Our Main Locations</h1>
+ 				<ul class="list-unstyled" id="location">
+ 					<li><i class="bi bi-globe"></i> &nbsp; 33, Suwebatu street, Abule-Egba, Lagos, Nigeria.</li>
+ 					<li><i class="bi bi-globe"></i> &nbsp; 4<sup>th</sup> street, Boston, USA. P.O Box: 103859</li>
+ 					<li><i class="bi bi-globe"></i> &nbsp; 23 New Jerusalem, Tel-Aviv, Isreal.</li>
+ 					<li><i class="bi bi-globe"></i> &nbsp; Plot 2e, Snake Hall, China</li>
+ 				</ul>
+ 			</div>
+		</div>
+		
+		<!-- Social media links -->
+		<div class="text-center fs-1 p-3 mt-4" id="social-container">
+			<a href="#!" class=" text-decoration-none">
+				<i class="bi bi-facebook m-2"></i>
+			</a>
+		  <a href="#!" class=" text-decoration-none">
+				<i class="bi bi-twitter m-2"></i>
+			</a>
+		  <a href="#!" class=" text-decoration-none">
+				<i class="bi bi-instagram m-2"></i>
+			</a>
+		  <a href="#!" class=" text-decoration-none">
+				<i class="bi bi-linkedin m-2"></i>
+			</a>
+			<a href="#!" class="text-decoration-none">
+				<i class="bi bi-youtube m-2"></i>
+			</a>
+   </div>
+   
+   <div class="p-2 pb-0 text-center h6">
+   	<em>Copyright <a href="#" class="text-white">UVschools</a> &copy; 2022</em>
+   </div>
+		
+	</footer>
+	
+	
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+	<script>
+		//This allows the navbar-nav to be hidden when a link is clicked
+const navLinks = document.querySelectorAll('.nav-item')
+const menuToggle = document.getElementById('navbarNav')
+const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false})
+navLinks.forEach((l) => {
+    l.addEventListener('click', () => { bsCollapse.toggle() })
+})
+
+
+
+/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.querySelector(".navbar").style.top = "0";
+  }else {
+    document.querySelector(".navbar").style.top = "-60px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+	</script>
+</body>
+</html>
